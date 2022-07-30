@@ -1,0 +1,56 @@
+/* -------- common style-------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:"poppins";
+}
+
+
+.orange-text{
+    color: orange;
+}
+
+
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+#header{
+    width: 100%;
+    height: 500px;
+    background-color:rgba(255, 166,0, 0.11);
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+
+.header-title{
+    width: 50%;
+}
+
+.header-image{
+    width: 50%;
+}
+
+.header-image img{
+    width: 100%;
+}
+
+/* services-section style here */
+#services-section{
+    width: 100%;
+    margin: 20px auto;
+}
