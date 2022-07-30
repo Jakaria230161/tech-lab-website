@@ -20,10 +20,19 @@ body{
 .btn{
     text-decoration: none;
     display: inline-block;
-    background-color: orange;
+    background: linear-gradient(45deg,orangered,orange);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.btn:hover{
+    background: none;
+    border: 1px solid orange;
+    color: orange;
+    padding: 9px 19px;
+    cursor: pointer;
+
 }
 
 
